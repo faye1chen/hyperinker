@@ -1,0 +1,82 @@
+// login scss
+.login{
+height: 100vh;
+background-color: #292725;
+display: flex;
+align-items: center;
+justify-content: center;
+
+    .loginContainer{
+        width: 80%;
+        display: flex;
+        background-color: white;
+        border-radius: 10px;
+        min-height: 950px;
+        overflow: hidden;
+        .left{
+            // right and left have same width
+            flex: 1;
+            background-color: #C40018;
+            //background: linear-gradient(rgba(196, 0, 24,0.4),rgba(41, 39, 37,0.5)), url("https://images.pexels.com/photos/5081919/pexels-photo-5081919.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2") center;
+            background-size: cover;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            color: white;
+
+            h1{
+                font-size: 100px;
+                // increase line gap
+                line-height: 200px;
+            }
+
+            span{
+                font-size: 14px;
+            }
+
+            button{
+                width: 50%;
+                padding: 10px;
+                border: none;
+                background-color: white;
+                color: #C40018;
+                font-weight: bold;
+                cursor: pointer;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+        }
+
+        .right{
+            flex: 1;
+            padding: 50px;
+            display: flex;
+            // redirect flex layout to vertical
+            flex-direction: column;
+            gap: 50px;
+
+            h1{
+                color: #555;
+            }
+
+            form{
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+
+                input{
+                    border: none;
+                    border-bottom: 1px solid lightgray;
+                    padding: 20px 10px;
+                }
+
+                button{
+                    width: 50%;
+                    padding: 10px;
+                    border: none;
+                    background-color: #B22727;
+                }
+            }
+        }
+    }
+}

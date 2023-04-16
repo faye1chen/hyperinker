@@ -1,0 +1,108 @@
+
+.navBar{
+  background-color: aquamarine;
+}
+.ad{
+  background-color: rgb(94, 231, 112);
+}
+.postContainer{
+  top: 50%;
+  left:50%;
+  background-color: rgb(231, 231, 231);
+  margin: 10px;
+  border: 5px;
+  border-color: black;
+  border-radius: 12px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+
+  .postItem{
+    margin-top: 5px;
+    background-color: beige;
+    padding: 5px;
+    border: 5px;
+    border: solid;
+    border-color: black;
+    border-radius:10px;
+    
+
+    .userInfo{
+      justify-content:space-between;
+      display: flex;
+
+      .left{
+        align-content: center;
+        display: flexbox;
+      }
+
+      // .right{
+      //   background-color: aqua;
+      // }
+    }
+    .postContextContainer{
+      margin: 5px;
+      padding: 10px;
+      background-color: rgb(98, 190, 199);
+      border-radius: 8px;
+
+      .postContext{
+        font-size: x-large;
+      }
+    }
+  }
+  button{
+    border-radius: 3px;
+    background-color: rgb(65, 225, 40);
+    margin: 3px;
+  }
+
+  .commentContainer{
+    
+    margin-left: 20px;
+    border-radius: 5px;
+
+    .comment{
+      border: 2px black solid;
+      margin: 3px;
+      border-radius: 3px;
+      background-color: rgb(167, 231, 180);
+    }
+  }
+}
+input{
+  background-color: rgb(234, 231, 231);
+
+}
+
+#newPost{
+
+  .inputField{
+    border-radius: 10px;
+    background-color: rgb(114, 237, 229);
+    textarea{
+      width: 500px;
+      height: 100px;;
+    }
+  }
+  
+  padding: 10px;
+  text-align: center;
+  textarea{
+    margin: 5px;
+  }
+  button{
+    margin-bottom: 5px;
+  }
+  #newPostButton{
+    width: 300px;
+    height: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+  }
+
+}
+
+
+
